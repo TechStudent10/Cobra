@@ -5,7 +5,7 @@ My own programming written in Python (now you see why it's called Cobra).
 Right now, no external modules are needed. You just need the Python programming language.
 
 ## Usage
-All you have to do it:
+All you have to do is:
 ```shell
 python execute.py <name-of-cobra-file>
 ```
