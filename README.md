@@ -9,6 +9,16 @@ All you have to do is:
 ```shell
 python execute.py <name-of-cobra-file>
 ```
+You also have 2 other options:
+### Windows
+```batch
+cobra <name-of-cobra-file>
+```
+### Linux or Mac
+```bash
+./cobra.sh <name-of-cobra-file>
+```
+
 I have an `example.cobra` file in the root directory of this repository.
 You can run it by running the following command in your terminal:
 ```shell
