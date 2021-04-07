@@ -14,7 +14,7 @@ You also have 2 other options:
 ```batch
 cobra <name-of-cobra-file>
 ```
-### Linux or Mac
+### Mac or Linux
 ```bash
 ./cobra.sh <name-of-cobra-file>
 ```
@@ -24,6 +24,7 @@ You can run it by running the following command in your terminal:
 ```shell
 python execute.py example.cobra
 ```
+or by using the other two options above: (Windows)[https://github.com/TechStudent11/Cobra#windows], (Mac or Linux)[https://github.com/TechStudent11/Cobra#mac-or-linux].
 
 ### Syntax
 The basic syntax for a Cobra program is: `name of function any arguments to be passed in to the function` for example: `say Hello, World!`. `say` is the function and `Hello, World!` is the argument.
