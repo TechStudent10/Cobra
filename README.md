@@ -9,7 +9,7 @@ All you have to do is:
 ```shell
 python execute.py <name-of-cobra-file>
 ```
-I have an `example.cobra` file in the root directory of the repository.
+I have an `example.cobra` file in the root directory of this repository.
 You can run it by running the following command in your terminal:
 ```shell
 python execute.py example.cobra
@@ -21,3 +21,4 @@ The basic syntax for a Cobra program is: `name of function any arguments to be p
 ### Functions
 The current functions for Cobra are:
 - say: Print to the console
+Arguments: text.
