@@ -28,9 +28,10 @@ python execute.py example.cobra
 or by using the other two options above: [Windows](#windows), [Mac or Linux](#mac-or-linux).
 
 ### Syntax
-The basic syntax for a Cobra program is: `name of function any arguments to be passed in to the function` for example: `say Hello, World!`. `say` is the function and `Hello, World!` is the argument.
+The basic syntax for a Cobra program is: `name of function any arguments to be passed in to the function`. That's a bit confusing. So for example, if you type `say Hello, World!`, `say` is the function and `Hello, World!` is the argument.
 
 ### Functions
 The current functions for Cobra are:
-- say: Print to the console
-Arguments: text.
+#### Say
+Description: Print to the console
+Arguments: text: Text to print out to the console.

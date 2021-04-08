@@ -1,2 +1,18 @@
-say Hello!
-say I'm me!
+# This is a comment
+
+# This is how you print to the console
+say "Whatever"
+
+# This is how you create a variable
+create_var test "Testing!"
+
+# You can also print variables to the console
+say test
+
+# This is how you create functions
+create_function my_function:
+    say test
+    say "Hi"
+
+# This is how you run functions
+my_function
