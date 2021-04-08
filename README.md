@@ -50,6 +50,5 @@ Description: Creates a function
 <br>
 Arguments:
 - name: Function name
-- value: Variable value. Can be an existing variable or string.
 
 For examples of functions, consult the `example.cobra` file.
