@@ -32,6 +32,24 @@ The basic syntax for a Cobra program is: `name of function any arguments to be p
 
 ### Functions
 The current functions for Cobra are:
-#### Say
+#### say
 Description: Print to the console
-Arguments: text: Text to print out to the console.
+<br>
+Arguments:
+- text: Text to print out to the console.
+
+#### create_var
+Description: Creates a variable
+<br>
+Arguments:
+- name: Variable name
+- value: Variable value. Can be an existing variable or string.
+
+#### create_function
+Description: Creates a function
+<br>
+Arguments:
+- name: Function name
+- value: Variable value. Can be an existing variable or string.
+
+For examples of functions, consult the `example.cobra` file.
