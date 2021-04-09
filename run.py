@@ -4,8 +4,6 @@ def execute_code(func_name, line, variables, index, lines, functions):
     if func_name == 'say':
         text = ""
         if "'" in line[0] or '"' in line[0]:
-            # line[0] = line[0][1:len(line[0]) - 1]
-            # line[0] = line[0].replace("'" if "'" in line[0] else '"', '')
             for t in line:
                 text += t + ' '
             text = text.replace("'" if "'" in t else '"', '')
@@ -51,6 +49,21 @@ def execute_code(func_name, line, variables, index, lines, functions):
         
         for i in range(len(functions[func_name])):
             run_function(function_lines[i], variables, i, lines, functions)
+    elif func_name == 'import':
+        module_name = line[0]
+        if not module_name.endswith('.cobra'):
+            module_name += '.cobra'
+        elif module_name.endswith('.cobra'):
+            pass
+        else:
+            syntax_error()
+
+        with open(module_name, 'r') as f:
+            module_code = f.read()
+
+        module_code = module_code.split('\n')
+        for i in range(len(module_code)):
+            run_main(module_code[0], variables, 0, module_code, functions)
     elif func_name == '' or func_name.startswith('#'):
         pass
     else:

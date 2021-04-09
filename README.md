@@ -28,7 +28,7 @@ python execute.py example.cobra
 or by using the other two options above: [Windows](#windows), [Mac or Linux](#mac-or-linux).
 
 ### Syntax
-The basic syntax for a Cobra program is: `name of function any arguments to be passed in to the function`. That's a bit confusing. So for example, if you type `say Hello, World!`, `say` is the function and `Hello, World!` is the argument.
+The basic syntax for a Cobra program is: `name of function any arguments to be passed in to the function`. That's a bit confusing. So for example, if you type `say Hello, World!`, `say` is the function and `Hello, World!` is the argument. To create a comment, use the # sign. For example: `# This is a comment. It will be ignored by Cobra`.
 
 ### Functions
 The current functions for Cobra are:
@@ -38,6 +38,8 @@ Description: Print to the console
 Arguments:
 - text: Text to print out to the console.
 
+Example: `say Hello, World!`
+
 #### create_var
 Description: Creates a variable
 <br>
@@ -45,10 +47,38 @@ Arguments:
 - name: Variable name
 - value: Variable value. Can be an existing variable or string.
 
+Example: `create_var test "This is a test"`
+
 #### create_function
 Description: Creates a function
 <br>
 Arguments:
 - name: Function name
 
-For examples of functions, consult the `example.cobra` file.
+Example:
+```
+create_function say_hello:
+    say "hello"
+```
+
+To execute a function:
+```
+# You just type the function's name
+say_hello
+```
+
+#### import
+Description: Imports a file into your current executing program.
+<br>
+Arguments:
+- filename: The name of the file you want to import. Can end with .cobra or not.
+
+Example: `import helloworld`
+
+Inside helloworld.cobra, there is a function called `testing_func`. To run it, just type it in like usual.
+```
+import helloworld
+testing_func
+```
+
+For examples of all of thees functions, consult the `example.cobra` file.

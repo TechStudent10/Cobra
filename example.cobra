@@ -16,3 +16,9 @@ create_function my_function:
 
 # This is how you run functions
 my_function
+
+# This is how you import other Cobra files
+import helloworld
+
+# You can use functions from other files
+testing_func
