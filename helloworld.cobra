@@ -1,0 +1,4 @@
+create_function testing_func:
+    say "I am the function"
+
+say "Imported!"
