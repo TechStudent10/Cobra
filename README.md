@@ -80,5 +80,6 @@ Inside helloworld.cobra, there is a function called `testing_func`. To run it, j
 import helloworld
 testing_func
 ```
+The `import` function will always import everything as of this commit.
 
 For examples of all of thees functions, consult the `example.cobra` file.
