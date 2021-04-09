@@ -82,4 +82,4 @@ testing_func
 ```
 The `import` function will always import everything as of this commit.
 
-For examples of all of thees functions, consult the `example.cobra` file.
+For examples of all of these functions, consult the `example.cobra` file.
