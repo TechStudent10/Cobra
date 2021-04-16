@@ -83,7 +83,7 @@ testing_func
 The `import` function will always import everything as of this commit.
 
 #### run_python
-Description: Runs Python in the Cobra environment.
+Description: Runs a line of Python code in the Cobra environment.
 <br>
 Arguments:
 - query: The query that you want to run.
