@@ -11,8 +11,8 @@ say test
 
 # This is how you create functions
 create_function my_function:
-    say test
-    say "Hi"
+   say test
+   say "Hi"
 
 # This is how you run functions
 my_function
@@ -22,3 +22,6 @@ import helloworld
 
 # You can use functions from other files
 testing_func
+
+# Just for compatibility reasons, you can use Python!
+run_python "print('well now this is a party!')"
