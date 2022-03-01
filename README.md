@@ -1,4 +1,4 @@
-**No longer maintained. See [#2](https://github.com/TechStudent11/Cobra)**
+**No longer maintained. See [#3](https://github.com/TechStudent11/Cobra/issues/3)**
 
 ---
 
